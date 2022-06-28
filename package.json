@@ -1,6 +1,6 @@
 {
   "name": "kiwi-auto-router",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue自动路由生成",
   "dependencies": {
     "fast-glob": "^3.2.7",
