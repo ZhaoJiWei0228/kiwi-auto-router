@@ -1,0 +1,53 @@
+{
+  "name": "kiwi-auto-router",
+  "version": "1.0.0",
+  "description": "vue自动路由生成",
+  "dependencies": {
+    "fast-glob": "^3.2.7",
+    "prettier": "^2.3.2"
+  },
+  "devDependencies": {
+    "husky": "~4.2.5",
+    "gulp-bump": "^3.2.0",
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.2"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "gulp",
+    "node": "node node/openBrowser",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhaoJiWei0228/kiwi-auto-router.git"
+  },
+  "keywords": [
+    "kiwi-auto-router",
+    "自动路由",
+    "路由",
+    "auto-router",
+    "router"
+  ],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">= 3.0.0"
+  },
+  "author": "zhaojiwei",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-push": "node node/openBrowser"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/ZhaoJiWei0228/kiwi-auto-router/issues"
+  },
+  "homepage": "https://github.com/ZhaoJiWei0228/kiwi-auto-router#readme"
+}
